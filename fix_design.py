@@ -7,8 +7,8 @@ if [ "$#" -ge 2 ]; then
     design=$1
     ui=$2
 else
-    design='plot.ui'
-    ui='plot_ui.py'
+    design='untitled.ui'
+    ui='gui_ui.py'
 fi
 
 if [ "$#" -eq 3 ]; then
